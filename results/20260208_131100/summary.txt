@@ -1,0 +1,109 @@
+======================================================================
+CATAN LLM BENCHMARK RESULTS
+Generated: 2026-02-08 13:11:00
+Total games: 24
+Total cost: $11.85
+======================================================================
+
+LEADERBOARD (by ELO):
+----------------------------------------------------------------------
+Model                             ELO  Wins    WR%         95% CI  Avg VP
+----------------------------------------------------------------------
+gemini-3-flash                 1663.6    21 87.5%  [69.0%-95.7%]     9.7
+claude-sonnet                  1465.5     2  8.3%   [2.3%-25.9%]     4.8
+gemini-flash                   1442.2     1  4.2%   [0.7%-20.2%]     4.6
+claude-haiku                   1428.7     0  0.0%   [0.0%-13.8%]     4.5
+
+
+DETAILED STATISTICS:
+----------------------------------------------------------------------
+
+gemini-3-flash:
+  Games: 24 | Wins: 21 | Win rate: 87.5%
+  ELO: 1663.6
+  Avg VP: 9.7 | Avg settlements: 1.2 | Avg cities: 2.5
+  Longest road: 11x | Largest army: 13x
+  Cost: $3.31 total, $0.14/game
+  LLM calls: 2102 | Avg latency: 2224ms
+  Tokens: 4,513,934 input, 349,457 output, 0 cached
+  Cache hit rate: 0.0%
+  Trades proposed: 100 | Acceptance rate: 5.0%
+  Robber: played 9.3x/game | robbed 13.6x/game
+  Avg resources collected/game: W=46.3 B=27.1 S=36.5 H=43.6 O=27.9
+  Avg traded away/game: W=14.3 B=7.7 S=10.7 H=12.0 O=8.5
+  Avg received/game: W=1.1 B=1.9 S=1.9 H=5.4 O=6.2
+
+claude-sonnet:
+  Games: 24 | Wins: 2 | Win rate: 8.3%
+  ELO: 1465.5
+  Avg VP: 4.8 | Avg settlements: 1.5 | Avg cities: 1.2
+  Longest road: 1x | Largest army: 3x
+  Cost: $3.56 total, $0.15/game
+  LLM calls: 1231 | Avg latency: 5832ms
+  Tokens: 1,184,452 input, 251,041 output, 1,392,239 cached
+  Cache hit rate: 54.0%
+  Trades proposed: 186 | Acceptance rate: 12.9%
+  Robber: played 7.4x/game | robbed 6.8x/game
+  Avg resources collected/game: W=17.4 B=17.8 S=12.8 H=35.3 O=19.8
+  Avg traded away/game: W=7.0 B=11.8 S=5.2 H=15.5 O=10.8
+  Avg received/game: W=1.2 B=1.0 S=1.4 H=4.4 O=7.3
+
+gemini-flash:
+  Games: 24 | Wins: 1 | Win rate: 4.2%
+  ELO: 1442.2
+  Avg VP: 4.6 | Avg settlements: 1.8 | Avg cities: 0.7
+  Longest road: 4x | Largest army: 6x
+  Cost: $1.32 total, $0.05/game
+  LLM calls: 1346 | Avg latency: 1862ms
+  Tokens: 2,897,423 input, 197,366 output, 154,054 cached
+  Cache hit rate: 5.0%
+  Trades proposed: 9 | Acceptance rate: 22.2%
+  Robber: played 8.0x/game | robbed 8.2x/game
+  Avg resources collected/game: W=27.2 B=11.7 S=17.8 H=12.8 O=11.4
+  Avg traded away/game: W=9.6 B=3.8 S=9.6 H=3.5 O=6.0
+  Avg received/game: W=0.6 B=1.3 S=1.3 H=3.2 O=3.3
+
+claude-haiku:
+  Games: 24 | Wins: 0 | Win rate: 0.0%
+  ELO: 1428.7
+  Avg VP: 4.5 | Avg settlements: 1.4 | Avg cities: 1.0
+  Longest road: 2x | Largest army: 1x
+  Cost: $3.66 total, $0.15/game
+  LLM calls: 1382 | Avg latency: 4031ms
+  Tokens: 2,935,960 input, 328,691 output, 0 cached
+  Cache hit rate: 0.0%
+  Trades proposed: 103 | Acceptance rate: 10.7%
+  Robber: played 8.0x/game | robbed 4.1x/game
+  Avg resources collected/game: W=14.5 B=10.0 S=28.3 H=22.0 O=15.6
+  Avg traded away/game: W=7.9 B=5.5 S=14.5 H=13.3 O=12.5
+  Avg received/game: W=1.1 B=1.9 S=1.2 H=4.6 O=9.1
+
+
+GAME-BY-GAME RESULTS:
+----------------------------------------------------------------------
+  # Winner                     VP  Turns Seat Order
+----------------------------------------------------------------------
+  1 gemini-3-flash             10    110 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+  2 gemini-3-flash             10     89 claude-sonnet -> claude-haiku -> gemini-flash -> gemini-3-flash
+  3 gemini-3-flash             10     98 gemini-3-flash -> claude-haiku -> claude-sonnet -> gemini-flash
+  4 gemini-3-flash             10    134 gemini-3-flash -> gemini-flash -> claude-haiku -> claude-sonnet
+  5 gemini-3-flash             10     95 claude-sonnet -> gemini-3-flash -> gemini-flash -> claude-haiku
+  6 gemini-3-flash             10    196 gemini-flash -> claude-sonnet -> gemini-3-flash -> claude-haiku
+  7 gemini-3-flash             10    117 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+  8 gemini-3-flash             11    100 claude-haiku -> claude-sonnet -> gemini-3-flash -> gemini-flash
+  9 gemini-3-flash             10    166 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 10 gemini-3-flash             10    147 gemini-flash -> gemini-3-flash -> claude-haiku -> claude-sonnet
+ 11 gemini-3-flash             10    108 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 12 gemini-3-flash             10    134 gemini-3-flash -> claude-sonnet -> gemini-flash -> claude-haiku
+ 13 gemini-3-flash             11    167 claude-sonnet -> gemini-3-flash -> claude-haiku -> gemini-flash
+ 14 gemini-3-flash             10    112 gemini-flash -> claude-haiku -> gemini-3-flash -> claude-sonnet
+ 15 gemini-3-flash             10     93 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+ 16 gemini-flash               10    214 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+ 17 gemini-3-flash             10    194 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 18 gemini-3-flash             10    294 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 19 gemini-3-flash             10    120 claude-haiku -> claude-sonnet -> gemini-3-flash -> gemini-flash
+ 20 claude-sonnet              10    189 claude-haiku -> gemini-3-flash -> gemini-flash -> claude-sonnet
+ 21 gemini-3-flash             11    119 claude-haiku -> gemini-3-flash -> claude-sonnet -> gemini-flash
+ 22 gemini-3-flash             10    141 claude-sonnet -> claude-haiku -> gemini-flash -> gemini-3-flash
+ 23 claude-sonnet              10    281 claude-haiku -> gemini-3-flash -> gemini-flash -> claude-sonnet
+ 24 gemini-3-flash             10    113 claude-sonnet -> gemini-flash -> claude-haiku -> gemini-3-flash

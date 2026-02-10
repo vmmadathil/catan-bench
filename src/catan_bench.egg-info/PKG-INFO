@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: catan-bench
+Version: 0.1.0
+Summary: Benchmark frontier LLMs against each other in Settlers of Catan
+Requires-Python: >=3.10
+Requires-Dist: catanatron>=3.2.0
+Requires-Dist: anthropic>=0.40.0
+Requires-Dist: google-generativeai>=0.8.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: google-genai>=1.62.0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

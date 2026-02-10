@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-07T13:08:50.817429",
+    "total_games": 1,
+    "total_cost_usd": 3.8645
+  },
+  "leaderboard": [
+    {
+      "model": "claude-opus",
+      "elo": 1515.8,
+      "wins": 1,
+      "games": 1,
+      "win_rate": 1.0,
+      "win_rate_ci": [
+        0.2065,
+        1.0
+      ],
+      "avg_victory_points": 10.0,
+      "avg_settlements": 1.0,
+      "avg_cities": 3.0,
+      "avg_roads": 14.0,
+      "longest_road_count": 1,
+      "largest_army_count": 0,
+      "total_cost_usd": 3.0112,
+      "cost_per_game": 3.0112,
+      "total_llm_calls": 71,
+      "cache_hit_rate": 0.0,
+      "avg_latency_ms": 29523.4,
+      "trade_proposals_made": 0,
+      "trade_acceptance_rate": 0.0
+    },
+    {
+      "model": "gemini-flash",
+      "elo": 1494.8,
+      "wins": 0,
+      "games": 1,
+      "win_rate": 0.0,
+      "win_rate_ci": [
+        0.0,
+        0.7935
+      ],
+      "avg_victory_points": 7.0,
+      "avg_settlements": 1.0,
+      "avg_cities": 1.0,
+      "avg_roads": 8.0,
+      "longest_road_count": 0,
+      "largest_army_count": 1,
+      "total_cost_usd": 0.0796,
+      "cost_per_game": 0.0796,
+      "total_llm_calls": 67,
+      "cache_hit_rate": 0.0237,
+      "avg_latency_ms": 9028.0,
+      "trade_proposals_made": 2,
+      "trade_acceptance_rate": 0.0
+    },
+    {
+      "model": "gemini-3-pro",
+      "elo": 1494.7,
+      "wins": 0,
+      "games": 1,
+      "win_rate": 0.0,
+      "win_rate_ci": [
+        0.0,
+        0.7935
+      ],
+      "avg_victory_points": 9.0,
+      "avg_settlements": 5.0,
+      "avg_cities": 1.0,
+      "avg_roads": 15.0,
+      "longest_road_count": 0,
+      "largest_army_count": 0,
+      "total_cost_usd": 0.271,
+      "cost_per_game": 0.271,
+      "total_llm_calls": 95,
+      "cache_hit_rate": 0.0,
+      "avg_latency_ms": 22256.8,
+      "trade_proposals_made": 1,
+      "trade_acceptance_rate": 1.0
+    },
+    {
+      "model": "claude-sonnet",
+      "elo": 1494.7,
+      "wins": 0,
+      "games": 1,
+      "win_rate": 0.0,
+      "win_rate_ci": [
+        0.0,
+        0.7935
+      ],
+      "avg_victory_points": 4.0,
+      "avg_settlements": 2.0,
+      "avg_cities": 1.0,
+      "avg_roads": 15.0,
+      "longest_road_count": 0,
+      "largest_army_count": 0,
+      "total_cost_usd": 0.5027,
+      "cost_per_game": 0.5027,
+      "total_llm_calls": 42,
+      "cache_hit_rate": 0.0,
+      "avg_latency_ms": 11550.7,
+      "trade_proposals_made": 0,
+      "trade_acceptance_rate": 0.0
+    }
+  ],
+  "games": [
+    {
+      "game_id": 0,
+      "seed": 42,
+      "winner_model": "claude-opus",
+      "winner_color": "RED",
+      "total_turns": 174,
+      "seat_order": [
+        "claude-opus",
+        "gemini-3-pro",
+        "claude-sonnet",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 7,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 9,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 13,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-opus": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 3,
+          "roads_built": 14,
+          "longest_road_length": 8,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 71,
+          "cost_usd": 3.0112
+        },
+        "gemini-3-pro": {
+          "color": "WHITE",
+          "victory_points": 9,
+          "settlements": 5,
+          "cities": 1,
+          "roads_built": 15,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 95,
+          "cost_usd": 0.271
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 1,
+          "roads_built": 15,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 42,
+          "cost_usd": 0.5027
+        },
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 7,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 8,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 67,
+          "cost_usd": 0.0796
+        }
+      }
+    }
+  ]
+}

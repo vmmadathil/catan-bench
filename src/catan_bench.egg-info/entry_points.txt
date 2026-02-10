@@ -1,0 +1,2 @@
+[console_scripts]
+catan-bench = scripts.run_benchmark:main

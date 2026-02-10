@@ -1,0 +1,68 @@
+======================================================================
+CATAN LLM BENCHMARK RESULTS
+Generated: 2026-02-07 13:08:50
+Total games: 1
+Total cost: $3.86
+======================================================================
+
+LEADERBOARD (by ELO):
+----------------------------------------------------------------------
+Model                             ELO  Wins    WR%         95% CI  Avg VP
+----------------------------------------------------------------------
+claude-opus                    1515.8     1 100.0% [20.6%-100.0%]    10.0
+gemini-flash                   1494.8     0  0.0%   [0.0%-79.3%]     7.0
+gemini-3-pro                   1494.7     0  0.0%   [0.0%-79.3%]     9.0
+claude-sonnet                  1494.7     0  0.0%   [0.0%-79.3%]     4.0
+
+
+DETAILED STATISTICS:
+----------------------------------------------------------------------
+
+claude-opus:
+  Games: 1 | Wins: 1 | Win rate: 100.0%
+  ELO: 1515.8
+  Avg VP: 10.0 | Avg settlements: 1.0 | Avg cities: 3.0
+  Longest road: 1x | Largest army: 0x
+  Cost: $3.01 total, $3.01/game
+  LLM calls: 71 | Avg latency: 29523ms
+  Tokens: 129,575 input, 14,234 output, 0 cached
+  Cache hit rate: 0.0%
+
+gemini-flash:
+  Games: 1 | Wins: 0 | Win rate: 0.0%
+  ELO: 1494.8
+  Avg VP: 7.0 | Avg settlements: 1.0 | Avg cities: 1.0
+  Longest road: 0x | Largest army: 1x
+  Cost: $0.08 total, $0.08/game
+  LLM calls: 67 | Avg latency: 9028ms
+  Tokens: 124,224 input, 17,314 output, 3,014 cached
+  Cache hit rate: 2.4%
+  Trades proposed: 2 | Acceptance rate: 0.0%
+
+gemini-3-pro:
+  Games: 1 | Wins: 0 | Win rate: 0.0%
+  ELO: 1494.7
+  Avg VP: 9.0 | Avg settlements: 5.0 | Avg cities: 1.0
+  Longest road: 0x | Largest army: 0x
+  Cost: $0.27 total, $0.27/game
+  LLM calls: 95 | Avg latency: 22257ms
+  Tokens: 177,880 input, 9,729 output, 0 cached
+  Cache hit rate: 0.0%
+  Trades proposed: 1 | Acceptance rate: 100.0%
+
+claude-sonnet:
+  Games: 1 | Wins: 0 | Win rate: 0.0%
+  ELO: 1494.7
+  Avg VP: 4.0 | Avg settlements: 2.0 | Avg cities: 1.0
+  Longest road: 0x | Largest army: 0x
+  Cost: $0.50 total, $0.50/game
+  LLM calls: 42 | Avg latency: 11551ms
+  Tokens: 73,922 input, 18,726 output, 0 cached
+  Cache hit rate: 0.0%
+
+
+GAME-BY-GAME RESULTS:
+----------------------------------------------------------------------
+  # Winner                     VP  Turns Seat Order
+----------------------------------------------------------------------
+  1 claude-opus                10    174 claude-opus -> gemini-3-pro -> claude-sonnet -> gemini-flash

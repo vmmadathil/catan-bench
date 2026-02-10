@@ -1,0 +1,46 @@
+# Catan LLM Benchmark Configuration
+
+# Number of games to run (24 = all seat permutations for 4 players)
+num_games: 24
+
+# Enable domestic trading between players
+enable_trade: true
+
+# Starting random seed for reproducibility
+seed_start: 42
+
+# Output directory for reports
+output_dir: results
+
+# Models to benchmark
+models:
+  claude-opus:
+    provider: anthropic
+    model_id: claude-opus-4-6
+
+  claude-sonnet:
+    provider: anthropic
+    model_id: claude-sonnet-4-5-20250929
+
+  claude-haiku:
+    provider: anthropic
+    model_id: claude-haiku-4-5-20251001
+
+  gemini-flash:
+    provider: google
+    model_id: gemini-2.5-flash
+
+  gemini-3-flash:
+    provider: google
+    model_id: gemini-3-flash-preview
+
+  gemini-3-pro:
+    provider: google
+    model_id: gemini-3-pro-preview
+
+  gemini-2.5-pro:
+    provider: google
+    model_id: gemini-2.5-pro
+
+# Logging level: DEBUG, INFO, WARNING, ERROR
+log_level: INFO

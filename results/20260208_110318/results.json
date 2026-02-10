@@ -1,0 +1,7685 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-08T11:03:18.292812",
+    "total_games": 24,
+    "total_cost_usd": 13.4423
+  },
+  "leaderboard": [
+    {
+      "model": "gemini-3-flash",
+      "elo": 1672.0,
+      "wins": 20,
+      "games": 24,
+      "win_rate": 0.8333,
+      "win_rate_ci": [
+        0.6415,
+        0.9332
+      ],
+      "avg_victory_points": 9.54,
+      "avg_settlements": 1.38,
+      "avg_cities": 2.42,
+      "avg_roads": 8.38,
+      "longest_road_count": 14,
+      "largest_army_count": 11,
+      "total_cost_usd": 3.7227,
+      "cost_per_game": 0.1551,
+      "total_llm_calls": 2400,
+      "cache_hit_rate": 0.0,
+      "avg_latency_ms": 2163.7,
+      "trade_proposals_made": 156,
+      "trade_acceptance_rate": 0.0769
+    },
+    {
+      "model": "claude-haiku",
+      "elo": 1450.4,
+      "wins": 2,
+      "games": 24,
+      "win_rate": 0.0833,
+      "win_rate_ci": [
+        0.0232,
+        0.2585
+      ],
+      "avg_victory_points": 5.21,
+      "avg_settlements": 1.33,
+      "avg_cities": 1.29,
+      "avg_roads": 5.54,
+      "longest_road_count": 3,
+      "largest_army_count": 4,
+      "total_cost_usd": 4.3762,
+      "cost_per_game": 0.1823,
+      "total_llm_calls": 1709,
+      "cache_hit_rate": 0.0,
+      "avg_latency_ms": 3795.0,
+      "trade_proposals_made": 148,
+      "trade_acceptance_rate": 0.0676
+    },
+    {
+      "model": "claude-sonnet",
+      "elo": 1440.5,
+      "wins": 1,
+      "games": 24,
+      "win_rate": 0.0417,
+      "win_rate_ci": [
+        0.0074,
+        0.2024
+      ],
+      "avg_victory_points": 4.42,
+      "avg_settlements": 1.38,
+      "avg_cities": 1.12,
+      "avg_roads": 5.92,
+      "longest_road_count": 1,
+      "largest_army_count": 2,
+      "total_cost_usd": 3.7144,
+      "cost_per_game": 0.1548,
+      "total_llm_calls": 1223,
+      "cache_hit_rate": 0.5209,
+      "avg_latency_ms": 5709.9,
+      "trade_proposals_made": 169,
+      "trade_acceptance_rate": 0.1124
+    },
+    {
+      "model": "gemini-flash",
+      "elo": 1437.0,
+      "wins": 1,
+      "games": 24,
+      "win_rate": 0.0417,
+      "win_rate_ci": [
+        0.0074,
+        0.2024
+      ],
+      "avg_victory_points": 5.29,
+      "avg_settlements": 1.29,
+      "avg_cities": 1.21,
+      "avg_roads": 5.71,
+      "longest_road_count": 4,
+      "largest_army_count": 5,
+      "total_cost_usd": 1.6289,
+      "cost_per_game": 0.0679,
+      "total_llm_calls": 1643,
+      "cache_hit_rate": 0.0425,
+      "avg_latency_ms": 1987.3,
+      "trade_proposals_made": 9,
+      "trade_acceptance_rate": 0.2222
+    }
+  ],
+  "games": [
+    {
+      "game_id": 0,
+      "seed": 42,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "WHITE",
+      "total_turns": 122,
+      "seat_order": [
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-sonnet",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 8,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 40,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 49,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 57,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 69,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 72,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 88,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 106,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 113,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 114,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 11,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 7,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 110,
+          "cost_usd": 0.1718
+        },
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 3,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 7,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 52,
+          "cost_usd": 0.0508
+        },
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 6,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 6,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 40,
+          "cost_usd": 0.1148
+        },
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 1,
+          "roads_built": 7,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 41,
+          "cost_usd": 0.1065
+        }
+      }
+    },
+    {
+      "game_id": 1,
+      "seed": 43,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 77,
+      "seat_order": [
+        "claude-sonnet",
+        "claude-haiku",
+        "gemini-flash",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 13,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 18,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 21,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 26,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 33,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 44,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 54,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 58,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 2,
+            "O": 2
+          },
+          "requesting": {
+            "H": 2
+          }
+        }
+      ],
+      "players": {
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 22,
+          "cost_usd": 0.0776
+        },
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 19,
+          "cost_usd": 0.0478
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 3,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 27,
+          "cost_usd": 0.0233
+        },
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 10,
+          "settlements": 2,
+          "cities": 3,
+          "roads_built": 9,
+          "longest_road_length": 6,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 71,
+          "cost_usd": 0.1075
+        }
+      }
+    },
+    {
+      "game_id": 2,
+      "seed": 44,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "WHITE",
+      "total_turns": 202,
+      "seat_order": [
+        "gemini-3-flash",
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 26,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 28,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 30,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 40,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 58,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 104,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "B": 1,
+            "O": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 110,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 116,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 3
+          },
+          "requesting": {
+            "O": 2,
+            "W": 1
+          }
+        },
+        {
+          "turn": 119,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 2
+          }
+        },
+        {
+          "turn": 130,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 134,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 148,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 152,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 154,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 156,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 158,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 164,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 168,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 170,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "B": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 10,
+          "settlements": 4,
+          "cities": 1,
+          "roads_built": 13,
+          "longest_road_length": 10,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 103,
+          "cost_usd": 0.1668
+        },
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 42,
+          "cost_usd": 0.1077
+        },
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 1,
+          "roads_built": 6,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 66,
+          "cost_usd": 0.2407
+        },
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 6,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 59,
+          "cost_usd": 0.0583
+        }
+      }
+    },
+    {
+      "game_id": 3,
+      "seed": 45,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 98,
+      "seat_order": [
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-haiku",
+        "claude-sonnet"
+      ],
+      "trades": [
+        {
+          "turn": 19,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 33,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 70,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 72,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 74,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 81,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 84,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 86,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 88,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 90,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "H": 1
+          },
+          "requesting": {
+            "O": 3
+          }
+        },
+        {
+          "turn": 92,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 94,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 10,
+          "settlements": 2,
+          "cities": 2,
+          "roads_built": 8,
+          "longest_road_length": 5,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 86,
+          "cost_usd": 0.1269
+        },
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 5,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 34,
+          "cost_usd": 0.0302
+        },
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 4,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 47,
+          "cost_usd": 0.1175
+        },
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 4,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 3,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 25,
+          "cost_usd": 0.0666
+        }
+      }
+    },
+    {
+      "game_id": 4,
+      "seed": 46,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "BLUE",
+      "total_turns": 103,
+      "seat_order": [
+        "claude-sonnet",
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 37,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 46,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 54,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 55,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 63,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 70,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1,
+            "O": 1
+          }
+        },
+        {
+          "turn": 81,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 94,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "W": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 98,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 102,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        }
+      ],
+      "players": {
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 8,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 28,
+          "cost_usd": 0.0843
+        },
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 4,
+          "roads_built": 8,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 82,
+          "cost_usd": 0.1274
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 6,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 9,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 52,
+          "cost_usd": 0.0497
+        },
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 37,
+          "cost_usd": 0.0906
+        }
+      }
+    },
+    {
+      "game_id": 5,
+      "seed": 47,
+      "winner_model": "gemini-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 262,
+      "seat_order": [
+        "gemini-flash",
+        "claude-sonnet",
+        "gemini-3-flash",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 16,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 32,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 35,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 43,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 51,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 52,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 71,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "O": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 76,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 80,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 124,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 155,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 190,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 205,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 210,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 231,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 247,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 255,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 256,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 8,
+          "longest_road_length": 8,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 115,
+          "cost_usd": 0.1142
+        },
+        "claude-sonnet": {
+          "color": "RED",
+          "victory_points": 7,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 5,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 71,
+          "cost_usd": 0.1958
+        },
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 8,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 114,
+          "cost_usd": 0.1732
+        },
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 9,
+          "settlements": 1,
+          "cities": 4,
+          "roads_built": 10,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 101,
+          "cost_usd": 0.2574
+        }
+      }
+    },
+    {
+      "game_id": 6,
+      "seed": 48,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "WHITE",
+      "total_turns": 77,
+      "seat_order": [
+        "gemini-flash",
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 16,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 50,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 52,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 53,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 57,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 77,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 4,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 39,
+          "cost_usd": 0.04
+        },
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 18,
+          "cost_usd": 0.0429
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 3,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 17,
+          "cost_usd": 0.0511
+        },
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 8,
+          "longest_road_length": 6,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 61,
+          "cost_usd": 0.0893
+        }
+      }
+    },
+    {
+      "game_id": 7,
+      "seed": 49,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 336,
+      "seat_order": [
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 18,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 23,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 26,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 27,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 32,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 38,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 54,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 63,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 66,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 67,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 70,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 71,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 75,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 79,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 80,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 83,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 84,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 87,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 88,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 94,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 104,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 107,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 123,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "O": 1
+          }
+        },
+        {
+          "turn": 127,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 131,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 135,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 141,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 143,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 150,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 154,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 155,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 175,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 180,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 183,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 211,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 219,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 228,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 230,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 235,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 238,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 242,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 244,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 246,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 250,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 254,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 260,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 267,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 268,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 271,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 276,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 279,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 284,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "W": 2,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 294,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 300,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 324,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 327,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1,
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 9,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 3,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 162,
+          "cost_usd": 0.4044
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 8,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 9,
+          "longest_road_length": 6,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 183,
+          "cost_usd": 0.5597
+        },
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 11,
+          "settlements": 1,
+          "cities": 4,
+          "roads_built": 12,
+          "longest_road_length": 10,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 131,
+          "cost_usd": 0.2016
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 6,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 10,
+          "longest_road_length": 9,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 143,
+          "cost_usd": 0.1416
+        }
+      }
+    },
+    {
+      "game_id": 8,
+      "seed": 50,
+      "winner_model": "claude-haiku",
+      "winner_color": "RED",
+      "total_turns": 261,
+      "seat_order": [
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-sonnet",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 13,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 14,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 18,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 28,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 38,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 42,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2,
+            "W": 1
+          },
+          "requesting": {
+            "B": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 61,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 65,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 72,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 80,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 84,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 92,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 94,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 96,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 117,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 137,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 144,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 145,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 149,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 178,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 188,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 212,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 213,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 217,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 224,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 240,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 244,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 249,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 253,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 261,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 8,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 9,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 166,
+          "cost_usd": 0.2605
+        },
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 7,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 13,
+          "longest_road_length": 9,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 119,
+          "cost_usd": 0.1196
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 5,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 10,
+          "longest_road_length": 9,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 58,
+          "cost_usd": 0.1894
+        },
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 4,
+          "roads_built": 6,
+          "longest_road_length": 6,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 125,
+          "cost_usd": 0.3333
+        }
+      }
+    },
+    {
+      "game_id": 9,
+      "seed": 51,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 227,
+      "seat_order": [
+        "gemini-flash",
+        "gemini-3-flash",
+        "claude-haiku",
+        "claude-sonnet"
+      ],
+      "trades": [
+        {
+          "turn": 13,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 41,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 2,
+            "B": 1
+          }
+        },
+        {
+          "turn": 48,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 49,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 60,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 75,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 79,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 83,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 100,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 109,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 128,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 132,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 136,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 140,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 145,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 152,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 164,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 192,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 193,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 197,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 201,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 203,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 205,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 216,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 3
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 8,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 113,
+          "cost_usd": 0.1098
+        },
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 8,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 139,
+          "cost_usd": 0.2137
+        },
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 7,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 10,
+          "longest_road_length": 8,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 127,
+          "cost_usd": 0.327
+        },
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 6,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 63,
+          "cost_usd": 0.1947
+        }
+      }
+    },
+    {
+      "game_id": 10,
+      "seed": 52,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "BLUE",
+      "total_turns": 124,
+      "seat_order": [
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 31,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 56,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 63,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 86,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 90,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 95,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 96,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 98,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 106,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 2
+          },
+          "requesting": {
+            "O": 1,
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 110,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 120,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 43,
+          "cost_usd": 0.1075
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 3,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 30,
+          "cost_usd": 0.0916
+        },
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 10,
+          "settlements": 4,
+          "cities": 2,
+          "roads_built": 8,
+          "longest_road_length": 6,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 88,
+          "cost_usd": 0.1342
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 3,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 48,
+          "cost_usd": 0.0431
+        }
+      }
+    },
+    {
+      "game_id": 11,
+      "seed": 53,
+      "winner_model": "claude-sonnet",
+      "winner_color": "WHITE",
+      "total_turns": 143,
+      "seat_order": [
+        "gemini-3-flash",
+        "claude-sonnet",
+        "gemini-flash",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 9,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 11,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 13,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 15,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 25,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 26,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 29,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 30,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 38,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 41,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 45,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 60,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 66,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 2,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1,
+            "W": 1
+          }
+        },
+        {
+          "turn": 81,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 91,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "S": 1,
+            "W": 1
+          }
+        },
+        {
+          "turn": 102,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 103,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 105,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 114,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 117,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 130,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 3
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 131,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 3,
+            "O": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 138,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 139,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 142,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 2,
+            "O": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 3,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 59,
+          "cost_usd": 0.0892
+        },
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 52,
+          "cost_usd": 0.1576
+        },
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 9,
+          "settlements": 2,
+          "cities": 2,
+          "roads_built": 5,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 105,
+          "cost_usd": 0.0992
+        },
+        "claude-haiku": {
+          "color": "RED",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 6,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 81,
+          "cost_usd": 0.2006
+        }
+      }
+    },
+    {
+      "game_id": 12,
+      "seed": 54,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "WHITE",
+      "total_turns": 55,
+      "seat_order": [
+        "claude-sonnet",
+        "gemini-3-flash",
+        "claude-haiku",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 26,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 30,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "B": 1,
+            "W": 1
+          }
+        },
+        {
+          "turn": 42,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "B": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 13,
+          "cost_usd": 0.0409
+        },
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 3,
+          "roads_built": 8,
+          "longest_road_length": 5,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 40,
+          "cost_usd": 0.0607
+        },
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 3,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 10,
+          "cost_usd": 0.0245
+        },
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 4,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 14,
+          "cost_usd": 0.0128
+        }
+      }
+    },
+    {
+      "game_id": 13,
+      "seed": 55,
+      "winner_model": "claude-haiku",
+      "winner_color": "WHITE",
+      "total_turns": 223,
+      "seat_order": [
+        "gemini-flash",
+        "claude-haiku",
+        "gemini-3-flash",
+        "claude-sonnet"
+      ],
+      "trades": [
+        {
+          "turn": 24,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 44,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "B": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 45,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 49,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 65,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 84,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 92,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 96,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 99,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 116,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 120,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 128,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 140,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 141,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 148,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 152,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 159,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 160,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 163,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 165,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 167,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 169,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 171,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 173,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 175,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 179,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 189,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 193,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": true,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 195,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 197,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 204,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1,
+            "O": 1
+          }
+        },
+        {
+          "turn": 212,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 223,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 7,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 7,
+          "longest_road_length": 6,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 95,
+          "cost_usd": 0.0943
+        },
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 3,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 76,
+          "cost_usd": 0.1962
+        },
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 5,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 93,
+          "cost_usd": 0.1411
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 4,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 8,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 81,
+          "cost_usd": 0.2313
+        }
+      }
+    },
+    {
+      "game_id": 14,
+      "seed": 56,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "WHITE",
+      "total_turns": 93,
+      "seat_order": [
+        "gemini-flash",
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 15,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 27,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 40,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "B": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 76,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 5,
+          "settlements": 2,
+          "cities": 1,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 32,
+          "cost_usd": 0.0284
+        },
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 4,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 28,
+          "cost_usd": 0.0671
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 1,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 22,
+          "cost_usd": 0.0699
+        },
+        "gemini-3-flash": {
+          "color": "WHITE",
+          "victory_points": 11,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 7,
+          "longest_road_length": 5,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 57,
+          "cost_usd": 0.0902
+        }
+      }
+    },
+    {
+      "game_id": 15,
+      "seed": 57,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "ORANGE",
+      "total_turns": 129,
+      "seat_order": [
+        "gemini-flash",
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 15,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 31,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 47,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 51,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 57,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 71,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 72,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "S": 1,
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 87,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "S": 1,
+            "W": 1
+          }
+        },
+        {
+          "turn": 123,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 127,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 4,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 6,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 37,
+          "cost_usd": 0.0374
+        },
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 7,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 11,
+          "longest_road_length": 9,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 93,
+          "cost_usd": 0.2361
+        },
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 3,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 20,
+          "cost_usd": 0.0588
+        },
+        "gemini-3-flash": {
+          "color": "ORANGE",
+          "victory_points": 11,
+          "settlements": 0,
+          "cities": 4,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 96,
+          "cost_usd": 0.1509
+        }
+      }
+    },
+    {
+      "game_id": 16,
+      "seed": 58,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "BLUE",
+      "total_turns": 262,
+      "seat_order": [
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-sonnet",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 41,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 96,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 2,
+            "O": 1
+          },
+          "requesting": {
+            "H": 2,
+            "W": 1
+          }
+        },
+        {
+          "turn": 105,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 2,
+            "H": 1
+          },
+          "requesting": {
+            "O": 2,
+            "H": 1
+          }
+        },
+        {
+          "turn": 109,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 2
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 118,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 121,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 134,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 135,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 136,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 137,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 145,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 157,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 184,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 189,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 192,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 196,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 217,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 221,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 224,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 255,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 11,
+          "longest_road_length": 8,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 139,
+          "cost_usd": 0.2203
+        },
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 7,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 6,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 152,
+          "cost_usd": 0.1747
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 5,
+          "settlements": 0,
+          "cities": 2,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 55,
+          "cost_usd": 0.1672
+        },
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 7,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 7,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 136,
+          "cost_usd": 0.3668
+        }
+      }
+    },
+    {
+      "game_id": 17,
+      "seed": 59,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "BLUE",
+      "total_turns": 214,
+      "seat_order": [
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-sonnet",
+        "claude-haiku"
+      ],
+      "trades": [
+        {
+          "turn": 26,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 30,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 37,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 38,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 42,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 44,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 45,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 48,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 69,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 70,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 81,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 85,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 89,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 93,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 113,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 125,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 129,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 133,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 137,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 141,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 142,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 145,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 146,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 150,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 170,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 172,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 177,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 182,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 186,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 194,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "H": 3
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 198,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 206,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "gemini-3-flash": {
+          "color": "BLUE",
+          "victory_points": 10,
+          "settlements": 4,
+          "cities": 0,
+          "roads_built": 8,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": true,
+          "llm_calls": 125,
+          "cost_usd": 0.199
+        },
+        "gemini-flash": {
+          "color": "RED",
+          "victory_points": 5,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 7,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 87,
+          "cost_usd": 0.0865
+        },
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 5,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 8,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 49,
+          "cost_usd": 0.1566
+        },
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 7,
+          "settlements": 2,
+          "cities": 2,
+          "roads_built": 8,
+          "longest_road_length": 6,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 114,
+          "cost_usd": 0.2999
+        }
+      }
+    },
+    {
+      "game_id": 18,
+      "seed": 60,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 164,
+      "seat_order": [
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-3-flash",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 6,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 10,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 18,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 22,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 23,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 2,
+            "S": 1
+          },
+          "requesting": {
+            "O": 2,
+            "H": 1
+          }
+        },
+        {
+          "turn": 26,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 2,
+            "S": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 28,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 30,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 38,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 42,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 52,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 55,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 58,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 59,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 64,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 67,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 74,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 78,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 80,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 82,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 86,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 87,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 88,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 90,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 95,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 99,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 102,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 103,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 108,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 132,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 136,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 139,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 140,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 142,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 143,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 148,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 156,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 160,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 8,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 9,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 124,
+          "cost_usd": 0.3099
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 5,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 77,
+          "cost_usd": 0.2291
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 2,
+          "roads_built": 6,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 146,
+          "cost_usd": 0.2174
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 44,
+          "cost_usd": 0.0408
+        }
+      }
+    },
+    {
+      "game_id": 19,
+      "seed": 61,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 129,
+      "seat_order": [
+        "claude-haiku",
+        "claude-sonnet",
+        "gemini-flash",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 25,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 26,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 27,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 43,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 47,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "W": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 61,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 63,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "H": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1,
+            "B": 1
+          }
+        },
+        {
+          "turn": 83,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 85,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 102,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 115,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 119,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 123,
+          "proposer": "BLUE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 2
+          },
+          "requesting": {
+            "S": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 5,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 2,
+          "longest_road_length": 1,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 31,
+          "cost_usd": 0.0781
+        },
+        "claude-sonnet": {
+          "color": "BLUE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 7,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 37,
+          "cost_usd": 0.0974
+        },
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 3,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 3,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 33,
+          "cost_usd": 0.0323
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 4,
+          "roads_built": 7,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 72,
+          "cost_usd": 0.1087
+        }
+      }
+    },
+    {
+      "game_id": 20,
+      "seed": 62,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 219,
+      "seat_order": [
+        "claude-haiku",
+        "gemini-3-flash",
+        "claude-sonnet",
+        "gemini-flash"
+      ],
+      "trades": [
+        {
+          "turn": 6,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 23,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 27,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 34,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 44,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 68,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 87,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 111,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 115,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 119,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 120,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 123,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 144,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 147,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 148,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1,
+            "H": 1
+          }
+        },
+        {
+          "turn": 151,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 159,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "S": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 162,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 172,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 175,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 176,
+          "proposer": "ORANGE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 180,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 2,
+            "S": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 183,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 184,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 192,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 2
+          }
+        },
+        {
+          "turn": 199,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "W": 2,
+            "H": 2
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 200,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        },
+        {
+          "turn": 215,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 7,
+          "settlements": 0,
+          "cities": 3,
+          "roads_built": 3,
+          "longest_road_length": 2,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 107,
+          "cost_usd": 0.2805
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 5,
+          "cities": 1,
+          "roads_built": 13,
+          "longest_road_length": 6,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 146,
+          "cost_usd": 0.2323
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 6,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 81,
+          "cost_usd": 0.2518
+        },
+        "gemini-flash": {
+          "color": "WHITE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 46,
+          "cost_usd": 0.0446
+        }
+      }
+    },
+    {
+      "game_id": 21,
+      "seed": 63,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 129,
+      "seat_order": [
+        "claude-sonnet",
+        "claude-haiku",
+        "gemini-flash",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 11,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 15,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 19,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 23,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 25,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 31,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 37,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 2,
+            "W": 1
+          },
+          "requesting": {
+            "O": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 46,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 54,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 1
+          },
+          "requesting": {
+            "O": 2,
+            "H": 1
+          }
+        },
+        {
+          "turn": 58,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "B": 2
+          },
+          "requesting": {
+            "O": 3,
+            "H": 1
+          }
+        },
+        {
+          "turn": 78,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 86,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 2,
+            "H": 1
+          }
+        },
+        {
+          "turn": 99,
+          "proposer": "BLUE",
+          "target": "RED",
+          "accepted": true,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 106,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 2,
+            "S": 1
+          },
+          "requesting": {
+            "O": 3
+          }
+        },
+        {
+          "turn": 123,
+          "proposer": "BLUE",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 126,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 2
+          }
+        }
+      ],
+      "players": {
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 4,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 5,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 38,
+          "cost_usd": 0.1162
+        },
+        "claude-haiku": {
+          "color": "BLUE",
+          "victory_points": 4,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 4,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 51,
+          "cost_usd": 0.1274
+        },
+        "gemini-flash": {
+          "color": "ORANGE",
+          "victory_points": 4,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 8,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 38,
+          "cost_usd": 0.0386
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 11,
+          "settlements": 0,
+          "cities": 4,
+          "roads_built": 13,
+          "longest_road_length": 7,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 94,
+          "cost_usd": 0.1547
+        }
+      }
+    },
+    {
+      "game_id": 22,
+      "seed": 64,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 139,
+      "seat_order": [
+        "claude-haiku",
+        "gemini-3-flash",
+        "gemini-flash",
+        "claude-sonnet"
+      ],
+      "trades": [
+        {
+          "turn": 47,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 51,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": true,
+          "offering": {
+            "B": 1,
+            "W": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 71,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 74,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 79,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 87,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 91,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 97,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 2,
+            "S": 2
+          },
+          "requesting": {
+            "O": 3
+          }
+        },
+        {
+          "turn": 105,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 109,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "H": 1
+          },
+          "requesting": {
+            "W": 1
+          }
+        },
+        {
+          "turn": 111,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 115,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 118,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "S": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 3
+          }
+        },
+        {
+          "turn": 129,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 137,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "O": 1
+          },
+          "requesting": {
+            "W": 1,
+            "S": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-haiku": {
+          "color": "WHITE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 3,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 30,
+          "cost_usd": 0.0736
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 0,
+          "cities": 4,
+          "roads_built": 7,
+          "longest_road_length": 5,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 86,
+          "cost_usd": 0.1344
+        },
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 6,
+          "settlements": 1,
+          "cities": 1,
+          "roads_built": 3,
+          "longest_road_length": 3,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 68,
+          "cost_usd": 0.0686
+        },
+        "claude-sonnet": {
+          "color": "ORANGE",
+          "victory_points": 3,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 9,
+          "longest_road_length": 5,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 50,
+          "cost_usd": 0.1467
+        }
+      }
+    },
+    {
+      "game_id": 23,
+      "seed": 65,
+      "winner_model": "gemini-3-flash",
+      "winner_color": "RED",
+      "total_turns": 225,
+      "seat_order": [
+        "claude-sonnet",
+        "gemini-flash",
+        "claude-haiku",
+        "gemini-3-flash"
+      ],
+      "trades": [
+        {
+          "turn": 41,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "S": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 45,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 49,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 52,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 65,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 66,
+          "proposer": "WHITE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "H": 1,
+            "S": 1
+          }
+        },
+        {
+          "turn": 73,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 81,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 85,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "H": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 96,
+          "proposer": "ORANGE",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 156,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 2
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 158,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 160,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 161,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "H": 1,
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 162,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 164,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 165,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1,
+            "H": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 166,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 170,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 174,
+          "proposer": "WHITE",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 177,
+          "proposer": "RED",
+          "target": "WHITE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        },
+        {
+          "turn": 178,
+          "proposer": "WHITE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 197,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "B": 1
+          },
+          "requesting": {
+            "O": 1
+          }
+        },
+        {
+          "turn": 217,
+          "proposer": "RED",
+          "target": "ORANGE",
+          "accepted": false,
+          "offering": {
+            "O": 1
+          },
+          "requesting": {
+            "B": 1
+          }
+        },
+        {
+          "turn": 221,
+          "proposer": "RED",
+          "target": "BLUE",
+          "accepted": false,
+          "offering": {
+            "W": 1,
+            "B": 1
+          },
+          "requesting": {
+            "S": 1
+          }
+        },
+        {
+          "turn": 224,
+          "proposer": "ORANGE",
+          "target": "RED",
+          "accepted": false,
+          "offering": {
+            "W": 1
+          },
+          "requesting": {
+            "H": 1
+          }
+        }
+      ],
+      "players": {
+        "claude-sonnet": {
+          "color": "WHITE",
+          "victory_points": 3,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 7,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 45,
+          "cost_usd": 0.1246
+        },
+        "gemini-flash": {
+          "color": "BLUE",
+          "victory_points": 7,
+          "settlements": 3,
+          "cities": 0,
+          "roads_built": 7,
+          "longest_road_length": 6,
+          "has_longest_road": false,
+          "has_largest_army": true,
+          "llm_calls": 91,
+          "cost_usd": 0.09
+        },
+        "claude-haiku": {
+          "color": "ORANGE",
+          "victory_points": 2,
+          "settlements": 2,
+          "cities": 0,
+          "roads_built": 6,
+          "longest_road_length": 4,
+          "has_longest_road": false,
+          "has_largest_army": false,
+          "llm_calls": 66,
+          "cost_usd": 0.173
+        },
+        "gemini-3-flash": {
+          "color": "RED",
+          "victory_points": 10,
+          "settlements": 1,
+          "cities": 3,
+          "roads_built": 11,
+          "longest_road_length": 7,
+          "has_longest_road": true,
+          "has_largest_army": false,
+          "llm_calls": 96,
+          "cost_usd": 0.1509
+        }
+      }
+    }
+  ]
+}

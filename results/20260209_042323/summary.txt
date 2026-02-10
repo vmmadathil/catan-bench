@@ -1,0 +1,133 @@
+======================================================================
+CATAN LLM BENCHMARK RESULTS
+Generated: 2026-02-09 04:23:23
+Total games: 48
+Total cost: $25.46
+======================================================================
+
+LEADERBOARD (by ELO):
+----------------------------------------------------------------------
+Model                             ELO  Wins    WR%         95% CI  Avg VP
+----------------------------------------------------------------------
+gemini-3-flash                 1718.2    40 83.3%  [70.4%-91.3%]     9.5
+claude-sonnet                  1438.4     3  6.2%   [2.1%-16.8%]     4.7
+claude-haiku                   1436.9     5 10.4%   [4.5%-22.2%]     5.5
+gemini-flash                   1406.4     0  0.0%    [0.0%-7.4%]     4.2
+
+
+DETAILED STATISTICS:
+----------------------------------------------------------------------
+
+gemini-3-flash:
+  Games: 48 | Wins: 40 | Win rate: 83.3%
+  ELO: 1718.2
+  Avg VP: 9.5 | Avg settlements: 1.3 | Avg cities: 2.4
+  Longest road: 25x | Largest army: 19x
+  Cost: $7.26 total, $0.15/game
+  LLM calls: 4568 | Avg latency: 2289ms
+  Tokens: 9,928,073 input, 769,047 output, 20,163 cached
+  Cache hit rate: 0.2%
+  Trades proposed: 250 | Acceptance rate: 5.6%
+  Robber: played 8.9x/game | robbed 12.6x/game
+  Avg resources collected/game: W=50.2 B=35.9 S=39.9 H=51.8 O=34.8
+  Avg traded away/game: W=14.5 B=12.9 S=12.7 H=16.1 O=13.4
+  Avg received/game: W=1.4 B=1.6 S=3.2 H=7.0 O=7.9
+
+claude-sonnet:
+  Games: 48 | Wins: 3 | Win rate: 6.2%
+  ELO: 1438.4
+  Avg VP: 4.7 | Avg settlements: 1.4 | Avg cities: 1.1
+  Longest road: 3x | Largest army: 8x
+  Cost: $7.68 total, $0.16/game
+  LLM calls: 2622 | Avg latency: 5760ms
+  Tokens: 2,558,314 input, 534,618 output, 2,969,182 cached
+  Cache hit rate: 53.7%
+  Trades proposed: 450 | Acceptance rate: 12.4%
+  Robber: played 7.6x/game | robbed 6.0x/game
+  Avg resources collected/game: W=23.3 B=9.8 S=15.8 H=25.4 O=21.1
+  Avg traded away/game: W=11.0 B=4.8 S=9.1 H=12.5 O=10.4
+  Avg received/game: W=1.7 B=1.8 S=2.2 H=4.4 O=5.1
+
+claude-haiku:
+  Games: 48 | Wins: 5 | Win rate: 10.4%
+  ELO: 1436.9
+  Avg VP: 5.5 | Avg settlements: 1.6 | Avg cities: 1.2
+  Longest road: 10x | Largest army: 8x
+  Cost: $7.76 total, $0.16/game
+  LLM calls: 2928 | Avg latency: 4101ms
+  Tokens: 6,273,781 input, 685,761 output, 0 cached
+  Cache hit rate: 0.0%
+  Trades proposed: 204 | Acceptance rate: 10.3%
+  Robber: played 7.7x/game | robbed 7.2x/game
+  Avg resources collected/game: W=21.3 B=14.1 S=21.6 H=28.4 O=23.5
+  Avg traded away/game: W=9.9 B=6.8 S=11.4 H=14.5 O=14.4
+  Avg received/game: W=1.5 B=2.4 S=1.9 H=4.7 O=8.2
+
+gemini-flash:
+  Games: 48 | Wins: 0 | Win rate: 0.0%
+  ELO: 1406.4
+  Avg VP: 4.2 | Avg settlements: 1.6 | Avg cities: 0.7
+  Longest road: 6x | Largest army: 7x
+  Cost: $2.76 total, $0.06/game
+  LLM calls: 2656 | Avg latency: 2136ms
+  Tokens: 5,777,304 input, 429,265 output, 143,998 cached
+  Cache hit rate: 2.4%
+  Trades proposed: 26 | Acceptance rate: 11.5%
+  Robber: played 8.1x/game | robbed 6.4x/game
+  Avg resources collected/game: W=14.8 B=7.6 S=23.2 H=16.5 O=20.8
+  Avg traded away/game: W=7.7 B=2.2 S=9.4 H=4.7 O=8.2
+  Avg received/game: W=0.5 B=1.2 S=0.5 H=4.1 O=3.0
+
+
+GAME-BY-GAME RESULTS:
+----------------------------------------------------------------------
+  # Winner                     VP  Turns Seat Order
+----------------------------------------------------------------------
+  1 gemini-3-flash             10     74 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+  2 claude-sonnet              10    158 claude-sonnet -> claude-haiku -> gemini-flash -> gemini-3-flash
+  3 gemini-3-flash             10    158 gemini-3-flash -> claude-haiku -> claude-sonnet -> gemini-flash
+  4 gemini-3-flash             10    162 gemini-3-flash -> gemini-flash -> claude-haiku -> claude-sonnet
+  5 gemini-3-flash             10     99 claude-sonnet -> gemini-3-flash -> gemini-flash -> claude-haiku
+  6 gemini-3-flash             10    116 gemini-flash -> claude-sonnet -> gemini-3-flash -> claude-haiku
+  7 gemini-3-flash             10    137 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+  8 gemini-3-flash             10    168 claude-haiku -> claude-sonnet -> gemini-3-flash -> gemini-flash
+  9 gemini-3-flash             10    226 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 10 gemini-3-flash             10    139 gemini-flash -> gemini-3-flash -> claude-haiku -> claude-sonnet
+ 11 gemini-3-flash             10    112 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 12 claude-haiku               10    397 gemini-3-flash -> claude-sonnet -> gemini-flash -> claude-haiku
+ 13 gemini-3-flash             10     95 claude-sonnet -> gemini-3-flash -> claude-haiku -> gemini-flash
+ 14 gemini-3-flash             10    192 gemini-flash -> claude-haiku -> gemini-3-flash -> claude-sonnet
+ 15 gemini-3-flash             10    197 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+ 16 claude-haiku               10    175 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+ 17 gemini-3-flash             10     90 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 18 gemini-3-flash             10    130 gemini-3-flash -> gemini-flash -> claude-sonnet -> claude-haiku
+ 19 gemini-3-flash             10    148 claude-haiku -> claude-sonnet -> gemini-3-flash -> gemini-flash
+ 20 gemini-3-flash             10    183 claude-haiku -> gemini-3-flash -> gemini-flash -> claude-sonnet
+ 21 gemini-3-flash             10    103 claude-haiku -> gemini-3-flash -> claude-sonnet -> gemini-flash
+ 22 gemini-3-flash             10     81 claude-sonnet -> claude-haiku -> gemini-flash -> gemini-3-flash
+ 23 claude-haiku               10    230 claude-haiku -> gemini-3-flash -> gemini-flash -> claude-sonnet
+ 24 gemini-3-flash             10    141 claude-sonnet -> gemini-flash -> claude-haiku -> gemini-3-flash
+ 25 gemini-3-flash             10    125 claude-sonnet -> claude-haiku -> gemini-flash -> gemini-3-flash
+ 26 gemini-3-flash             10    213 claude-sonnet -> gemini-flash -> claude-haiku -> gemini-3-flash
+ 27 gemini-3-flash             10    130 gemini-3-flash -> claude-haiku -> claude-sonnet -> gemini-flash
+ 28 gemini-3-flash             10    112 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 29 gemini-3-flash             10     83 claude-sonnet -> gemini-3-flash -> claude-haiku -> gemini-flash
+ 30 gemini-3-flash             11    165 gemini-flash -> claude-haiku -> claude-sonnet -> gemini-3-flash
+ 31 claude-haiku               10    194 claude-haiku -> gemini-flash -> gemini-3-flash -> claude-sonnet
+ 32 gemini-3-flash             10    162 gemini-3-flash -> claude-haiku -> claude-sonnet -> gemini-flash
+ 33 claude-sonnet              11    461 claude-haiku -> gemini-flash -> gemini-3-flash -> claude-sonnet
+ 34 gemini-3-flash             10     91 claude-sonnet -> gemini-3-flash -> gemini-flash -> claude-haiku
+ 35 gemini-3-flash             10     83 claude-sonnet -> gemini-3-flash -> gemini-flash -> claude-haiku
+ 36 claude-haiku               10    180 gemini-flash -> gemini-3-flash -> claude-haiku -> claude-sonnet
+ 37 gemini-3-flash             10    132 claude-sonnet -> gemini-flash -> gemini-3-flash -> claude-haiku
+ 38 gemini-3-flash             10     48 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 39 gemini-3-flash             11     96 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 40 gemini-3-flash             11    172 claude-sonnet -> claude-haiku -> gemini-3-flash -> gemini-flash
+ 41 gemini-3-flash             10    142 gemini-3-flash -> claude-haiku -> claude-sonnet -> gemini-flash
+ 42 gemini-3-flash             10    127 claude-sonnet -> gemini-3-flash -> gemini-flash -> claude-haiku
+ 43 gemini-3-flash             10    155 claude-haiku -> gemini-3-flash -> claude-sonnet -> gemini-flash
+ 44 gemini-3-flash             10    116 claude-sonnet -> gemini-flash -> gemini-3-flash -> claude-haiku
+ 45 gemini-3-flash             10    130 gemini-3-flash -> claude-sonnet -> claude-haiku -> gemini-flash
+ 46 gemini-3-flash             10     84 claude-haiku -> gemini-flash -> gemini-3-flash -> claude-sonnet
+ 47 gemini-3-flash             10    127 claude-haiku -> gemini-3-flash -> gemini-flash -> claude-sonnet
+ 48 claude-sonnet              10     81 gemini-3-flash -> claude-haiku -> gemini-flash -> claude-sonnet

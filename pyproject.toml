@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catan-bench"
+version = "0.1.0"
+description = "Benchmark frontier LLMs against each other in Settlers of Catan"
+requires-python = ">=3.10"
+dependencies = [
+    "catanatron>=3.2.0",
+    "anthropic>=0.40.0",
+    "google-generativeai>=0.8.0",
+    "pyyaml>=6.0",
+    "google-genai>=1.62.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+catan-bench = "scripts.run_benchmark:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
