@@ -1,5 +1,0 @@
-game_id,seed,winner_model,winner_color,total_turns,model,color,seat_position,victory_points,settlements,cities,roads_built,longest_road_length,has_longest_road,has_largest_army,knights_played,llm_calls,cost_usd,input_tokens,output_tokens,cached_tokens,avg_latency_ms,trade_proposals_made,trade_proposals_accepted
-0,42,claude-opus,RED,174,claude-opus,RED,0,10,1,3,14,8,True,False,0,71,3.0112,129575,14234,0,29523.4,0,0
-0,42,claude-opus,RED,174,gemini-3-pro,WHITE,1,9,5,1,15,7,False,False,5,95,0.271,177880,9729,0,22256.8,1,1
-0,42,claude-opus,RED,174,claude-sonnet,BLUE,2,4,2,1,15,5,False,False,0,42,0.5027,73922,18726,0,11550.7,0,0
-0,42,claude-opus,RED,174,gemini-flash,ORANGE,3,7,1,1,8,7,False,True,9,67,0.0796,124224,17314,3014,9028.0,2,0

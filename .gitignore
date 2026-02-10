@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# Benchmark outputs
+results/
+
+# Generated charts (reproducible via generate_charts.py)
+charts/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
