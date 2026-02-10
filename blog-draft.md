@@ -192,4 +192,4 @@ Figure out Gemini 2.5 Flash. The VP card bug resists explicit prompt correction.
 
 The most interesting part to me is that the models don't fail the way you'd expect. They're not bad at Catan in general. They're bad at Catan in specific, diagnosable ways: one can't cross the finish line because it misunderstands a single rule, another freezes near victory because it can't generate a Plan B, a third hallucinates its own score for hundreds of turns. These are narrow mechanical failures in otherwise capable systems. The models are closer to competent than the win rates suggest. Figuring out where those gaps are, and whether they can be fixed with better context rather than retraining, seems like a question worth spending $25 on.
 
-The code is open source at [TODO: repo link].
+The code is open source at [github.com/visakhmadathil/catan-bench](https://github.com/visakhmadathil/catan-bench).

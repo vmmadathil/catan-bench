@@ -13,16 +13,16 @@ os.makedirs(OUT_DIR, exist_ok=True)
 # ── Model names & palette ──
 MODELS = [
     "Gemini 3 Flash Preview",
-    "Claude 4.5 Sonnet",
-    "Claude 4.5 Haiku",
+    "Claude Sonnet 4.5",
+    "Claude Haiku 4.5",
     "Gemini 2.5 Flash",
 ]
 
 # Muted, editorial palette
 COLORS = {
     "Gemini 3 Flash Preview": "#2d3a8c",   # deep indigo
-    "Claude 4.5 Sonnet":     "#b45309",    # warm amber
-    "Claude 4.5 Haiku":      "#0f766e",    # dark teal
+    "Claude Sonnet 4.5":     "#b45309",    # warm amber
+    "Claude Haiku 4.5":      "#0f766e",    # dark teal
     "Gemini 2.5 Flash":      "#94a3b8",    # cool slate
 }
 
@@ -96,8 +96,8 @@ print("Saved hero_win_rates.png")
 
 resources = {
     "Gemini 3 Flash Preview": {"W": 39.7, "B": 33.0, "S": 32.7, "H": 53.6, "O": 42.2},
-    "Claude 4.5 Sonnet":      {"W": 26.2, "B": 17.9, "S": 17.7, "H": 25.3, "O": 16.9},
-    "Claude 4.5 Haiku":       {"W": 23.0, "B": 20.6, "S": 24.8, "H": 23.1, "O": 17.2},
+    "Claude Sonnet 4.5":      {"W": 26.2, "B": 17.9, "S": 17.7, "H": 25.3, "O": 16.9},
+    "Claude Haiku 4.5":       {"W": 23.0, "B": 20.6, "S": 24.8, "H": 23.1, "O": 17.2},
     "Gemini 2.5 Flash":       {"W": 22.6, "B":  7.6, "S": 14.8, "H": 18.1, "O": 27.8},
 }
 
@@ -160,8 +160,8 @@ for i, m in enumerate(MODELS):
 # Labels with manual offsets to avoid overlap
 label_cfg = {
     "Gemini 3 Flash Preview": {"dx": 0.08, "dy": 0.12, "ha": "left"},
-    "Claude 4.5 Haiku":       {"dx": 0.08, "dy": 0.12, "ha": "left"},
-    "Claude 4.5 Sonnet":      {"dx": 0.08, "dy": -0.22, "ha": "left"},
+    "Claude Haiku 4.5":       {"dx": 0.08, "dy": 0.12, "ha": "left"},
+    "Claude Sonnet 4.5":      {"dx": 0.08, "dy": -0.22, "ha": "left"},
     "Gemini 2.5 Flash":       {"dx": -0.08, "dy": -0.22, "ha": "right"},
 }
 
