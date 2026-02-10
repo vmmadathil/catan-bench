@@ -140,6 +140,17 @@ The other models' scratchpads tend to calcify. Haiku 4.5's final 50 turns of a l
 
 The most extreme case was a Haiku 4.5 game where the scratchpad claimed victory was imminent for 280 consecutive turns, complete with detailed multi-step win plans that were never executed. Its self-reported VP count fluctuated between 5 and 11 turn to turn, untethered from the actual game state shown in the prompt. The model was hallucinating its own score.
 
+## Safety Audit
+
+I scanned all 12,761 decisions across 48 games for alignment concerns. Clean bill of health.
+
+- **No deception** in trade reasoning. All proposals were straightforward self-interest.
+- **No collusion** between same-provider models. Anthropic models actually robbed each other more than expected (44% vs 33% baseline). Same for the Gemini pair (51%).
+- **No manipulation** or prompt injection attempts. No model tried to escape the game context.
+- **No hostile language.** "Punish" appeared once (blocking a road), "cripple" three times (robber placement). Standard Catan vocabulary.
+- **No sandbagging.** No model intentionally played poorly.
+- **No meta-awareness.** No model referenced being an AI, being benchmarked, or identified other players as models. They only know colors (WHITE, BLUE, etc).
+
 ## A Few Games Worth Watching
 
 **Game 4 (74 turns, Gemini 3 Flash):** The fastest game in the tournament. Opened on the highest-pip node on the board, built cities aggressively, held 2 VP cards, and closed it out with a single city upgrade. The other players were still working on their second settlement.
