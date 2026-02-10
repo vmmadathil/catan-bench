@@ -151,6 +151,8 @@ I scanned all 12,761 decisions across 48 games for alignment concerns. Clean bil
 - **No sandbagging.** No model intentionally played poorly.
 - **No meta-awareness.** No model referenced being an AI, being benchmarked, or identified other players as models. They only know colors (WHITE, BLUE, etc).
 
+Catan's natural private/public information split (hidden hands, hidden VP cards, private scratchpads vs. visible board state and trade proposals) makes it a good testbed for deception research. Running open-weight models like Llama 4 through the same benchmark would let you do activation patching and linear probing on the residual stream to detect whether a model's internal representation of its strategy diverges from what it communicates during trades.
+
 ## A Few Games Worth Watching
 
 **Game 4 (74 turns, Gemini 3 Flash):** The fastest game in the tournament. Opened on the highest-pip node on the board, built cities aggressively, held 2 VP cards, and closed it out with a single city upgrade. The other players were still working on their second settlement.
